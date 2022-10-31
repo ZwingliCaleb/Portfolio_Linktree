@@ -1,9 +1,14 @@
 import React from 'react'
 import LinkButtons from './components/LinkButtons'
+import TextBanner from './components/TextBanner';
 
 function App() {
   return (
     <div>
+    <TextBanner
+     title="Caleb Zwingli"
+     text=""
+     /> 
     <LinkButtons
      name="Twitter Link"
      link="https://twitter.com/ZwingliCaleb"

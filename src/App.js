@@ -1,13 +1,17 @@
 import React from 'react'
+import DisplayPic from './components/DisplayPic';
 import LinkButtons from './components/LinkButtons'
 import TextBanner from './components/TextBanner';
+import picture from './CALEB.jpg'
 
 function App() {
   return (
     <div>
+    <DisplayPic
+     picture={picture}
+    />  
     <TextBanner
      title="Caleb Zwingli"
-     text=""
      /> 
     <LinkButtons
      name="Twitter Link"

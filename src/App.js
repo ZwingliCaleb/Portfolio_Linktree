@@ -6,10 +6,19 @@ import picture from './CALEB.jpg'
 
 function App() {
   return (
-    <div>
-    <DisplayPic
-     picture={picture}
-    />  
+    <div style={{
+       textAlign: 'center',
+       alignItems: 'center',
+       justifyContent: 'center'
+      }}>
+    <div style={{
+      alignItems: 'center',
+      display: 'flex'
+    }}>   
+     <DisplayPic
+      picture={picture}
+    />
+    </div>  
     <TextBanner
      title="Caleb Zwingli"
      /> 

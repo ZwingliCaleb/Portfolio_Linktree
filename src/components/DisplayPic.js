@@ -9,10 +9,13 @@ const DisplayPic=props=>{
         <img style={{
             "height":88, 
             "width":88, 
-            "display": "flex", 
-            "border-radius": 275
+             display: 'flex', 
+            "border-radius": 275,
+            align: "center"
         }}
-            src={picture}/>
+            alt=""
+            src={picture}
+            />
     )
 }
 

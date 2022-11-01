@@ -17,6 +17,7 @@ const DisplayPic=props=>{
             src={picture}
             />
     )
+
 }
 
 export default DisplayPic
